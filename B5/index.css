@@ -1,0 +1,58 @@
+.main {
+    height: 300px;
+    background: #000;
+    color: white;
+}
+
+
+@media screen {
+    body {
+        background-color: wheat;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .hero {
+        background-color: blue;
+        border-radius: 40px;
+    }
+}
+
+.product-list {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    gap: 12px;
+    background: blueviolet;
+}
+.product-item {
+    background: white;
+    color: black;
+    padding: 36px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .product-list {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .product-list {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+}
+.user {
+    color: purple;
+}
+@media ( max-width: 60px), (min-width: 800px) {
+    .user {
+        color:blue;
+    }
+}

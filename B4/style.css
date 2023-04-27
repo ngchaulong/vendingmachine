@@ -1,0 +1,89 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 12px;
+	box-shadow: 5px 10px 15px rgba(0,0,0,0.1);
+}
+.logo {
+	font-size: 64px;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+	gap: 18px;
+}
+
+.nav-item  {
+	font-size: 32px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main {
+	display: flex;
+	height: 100vh;
+}
+
+aside {
+	background-color: rgba(0,0,0,0.1);
+	width: 30%;
+	padding-top: 30px;
+
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+input {
+	border-radius: 30px;
+	height: 36px;
+	width: 80%;
+}
+
+button {
+	padding: 12px 24px;
+	border-radius: 4px;
+	border: none;
+	background-color: #4CAF50;
+	color: #fff;
+	font-size: 18px;
+}
+
+section {
+	padding-top: 30px;
+	width: 70%;
+	display: grid; 
+	/* chia lam 4 cot, moi cot 20% */
+	grid-template-columns: 20% 20% 20% 20%;
+	/* tao 3 rong, moi rong 200px */
+	grid-template-rows: repeat(3, 200px);
+	gap: 20px;
+	/* display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 30px; */
+}
+
+img {
+	width: 100%;
+}
+
+.product {
+	box-shadow: 5px 10px 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+.product-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

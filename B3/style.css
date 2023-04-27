@@ -1,0 +1,66 @@
+.box {
+    width: 350px;
+    height: 250px;
+    background: red;
+    padding: 20px 15px 20px 8px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    margin: 20px;
+}
+.box2 {
+    width: 100px;
+    height: 150pxpx;
+    background: yellow;
+    padding: 24px;
+
+}
+.box3 {
+    width: 250px;
+    height: 250px;
+    background-color: wheat;
+    margin: auto;
+    border-radius: 50%;
+}
+.position-static {
+    position: static;
+}
+.position-fix {
+    margin: 60px;
+    width: 200px;
+    height: 150px;
+    background-color: blueviolet;
+    position: relative;
+    left: 50px;
+    top: 100px;
+    
+}
+.parent {
+    background: green;
+    width: 600px;
+    height: 400px;
+}
+.child {
+    background: greenyellow;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+.child:hover {
+    width: 100;
+    height: 100;
+}
+header {
+    background: brown;
+    margin-bottom: 40px;
+    padding: 24px 16px;
+    color: white;
+    position: fixed;
+}
+.btn.back {
+    text-decoration: none;
+    padding: 8px;
+    position: fixed;
+    right: 30px;
+    
+}
